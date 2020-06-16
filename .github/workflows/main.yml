@@ -30,5 +30,5 @@ jobs:
     - name: installing surge
       run: npm install --global surge
     - name : Deploy  surge
-      run: ./ newwork.surge.sh --token${{ secrects.surge_token }}
+      run: ./ newwork.surge.sh --token${{ secrects.SURGE_TOKEN1}}
     
